@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Controller4">
+   <children>
+      <Button layoutX="483.0" layoutY="221.0" mnemonicParsing="false" onAction="#showButtonPressed" prefHeight="47.0" prefWidth="90.0" text="Show" />
+      <CheckBox fx:id="popularFestivalsCheckBox" layoutX="21.0" layoutY="230.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="158.0" text="Get Popular Festivals" />
+      <CheckBox fx:id="longestConcertCheckBox" layoutX="14.0" layoutY="67.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="164.0" text="Get Longest Concert" />
+      <ListView fx:id="longestConcertListView" layoutX="200.0" layoutY="46.0" prefHeight="103.0" prefWidth="254.0" />
+      <ListView fx:id="popularFestivalsListView" layoutX="200.0" layoutY="207.0" prefHeight="103.0" prefWidth="254.0" />
+      <Text layoutX="200.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Longest Concert:" wrappingWidth="112.367919921875" />
+      <Text layoutX="200.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Popular Festivals:" wrappingWidth="112.367919921875" />
+      <Button layoutX="483.0" layoutY="287.0" mnemonicParsing="false" onAction="#goBackStatistics" prefHeight="47.0" prefWidth="90.0" text="Go Back" />
+   </children>
+</Pane>

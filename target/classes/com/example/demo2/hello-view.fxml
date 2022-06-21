@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="189.0" prefWidth="305.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <RadioButton fx:id="radioButton1" mnemonicParsing="false" text="Add festival run">
+         <GridPane.margin>
+            <Insets left="35.0" />
+         </GridPane.margin>
+         <toggleGroup>
+            <ToggleGroup fx:id="radio1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="radioButton2" mnemonicParsing="false" text="Add Concert" toggleGroup="$radio1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="35.0" />
+         </GridPane.margin>
+      </RadioButton>
+      <RadioButton fx:id="radioButton3" mnemonicParsing="false" prefHeight="18.0" prefWidth="78.0" text="Statistics" toggleGroup="$radio1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="35.0" />
+         </GridPane.margin>
+      </RadioButton>
+      <Button mnemonicParsing="false" onAction="#continueButtonPressed" prefHeight="26.0" prefWidth="78.0" text="Continue" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="35.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>
