@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3152ed74-128b-4db9-b49f-2a32571a4c72" name="Changes" comment="Controller 4 is added!" />
+    <list default="true" id="3152ed74-128b-4db9-b49f-2a32571a4c72" name="Changes" comment="Program is completed, comments will be added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo2/Controller3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo2/Controller3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo2/Controller4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo2/Controller4.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2AtC5ORqhalbf0OaSpEMH8Ott0e" />
@@ -80,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655820431674</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Program is completed, comments will be added.">
+      <created>1655820770111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655820770111</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Controller 4 is added!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller 4 is added!" />
+    <MESSAGE value="Program is completed, comments will be added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Program is completed, comments will be added." />
   </component>
 </project>
