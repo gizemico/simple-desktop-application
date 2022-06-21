@@ -20,7 +20,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
-//Controller 4 is created
+// Controller4 is created for Statistics
 public class Controller4 {
 
     @FXML
